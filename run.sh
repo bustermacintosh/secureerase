@@ -53,7 +53,7 @@ echo
 
 # /dev/tty keeps interactive prompts working even when this wrapper itself
 # was launched with: curl ... | /bin/sh
-/usr/bin/caffeinate -dimsu "$TMP" </dev/tty
+/usr/bin/caffeinate -imsu "$TMP" </dev/tty
 STATUS=$?
 
 exit "$STATUS"
